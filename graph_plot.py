@@ -8,7 +8,7 @@ y1 = []
 x2 = []
 y2 = []
 
-file1 = open('output/output_graph/twitter_combined_WC_discountdegree_15_50_1487723611282_1682961523703.txt', 'r')
+file1 = open('output/output_graph/twitter_combined_WC_maxdegree_15_50_1487723611282_1682961489163.txt', 'r')
 Lines = file1.readlines()
 
 count = 0
