@@ -7,7 +7,7 @@ y1 = []
 
 x2 = []
 y2 = []
-
+mod=1000000007
 file1 = open('output/output_graph/twitter_combined_WC_discountdegree_15_50_1487723611282_1682961553699.txt', 'r')
 Lines = file1.readlines()
 
@@ -26,8 +26,9 @@ for line in Lines:
 
     for i in range(len(lines)):
         x.append(count)
-        y.append(int(lines[i]))
+        y.append(int(lines[i])%mod)
     x1.append(x)
+    #y=y%mod
     y1.append(y)
 
 y1.sort()
