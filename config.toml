@@ -16,7 +16,7 @@ algorithm 					= "discountdegree" # "celf/tim/maxdegree/discountdegree/pmc" (cap
 seeds 						= 50
 
 
-model 						= "ic" # "IC/LT" (caps irrelevant)
+model 						= "lt" # "IC/LT" (caps irrelevant)
 
 # Number of simulations to be used by CELF, in literature, this is usually set to 10k.
 simulations 				= 1000
